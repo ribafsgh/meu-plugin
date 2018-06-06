@@ -1,0 +1,23 @@
+{
+    "name": "ribafs/meu-plugin",
+    "authors": [
+        {
+            "name": "Ribamar FS",
+            "email": "contato@ribafs.org",
+            "homepage": "http://ribafs.org",
+            "role": "Developer"
+        }
+    ],
+    "description": "Plugin teste apenas e criação de um tutorial",
+    "type": "plugin",
+    "keywords": ["cakephp", "plugin", "busca", "portugues"],
+    "license": "MIT",
+    "require": {
+        "php": ">=5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "MeuPlugin\\": "src"
+        }
+    }
+}
